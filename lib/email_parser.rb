@@ -5,9 +5,10 @@
 
 class EmailAddressParser
   attr_accessor :emails
+  attr_reader :email_csv
 
   def initialize(email_csv)
-    # email_csv.parse(email_csv)
+    @email_csv = email_csv
   end
 
   def parse
