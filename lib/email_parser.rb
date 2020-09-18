@@ -5,6 +5,10 @@
 
 class EmailAddressParser
 
+  def initialize(email_csv)
+    email.csv.parse
+  end
+
   def parse(email_csv)
     emails = email_csv.split(/[, ]/)
     emails
