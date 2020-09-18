@@ -12,6 +12,7 @@ class EmailAddressParser
 
   def parse(email_csv)
     emails = email_csv.scan(/[ ,]/)
+    emails
   end
 
 end
